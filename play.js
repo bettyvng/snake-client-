@@ -11,7 +11,7 @@ const connect = function () {
   conn.setEncoding("utf8");
   conn.on("connect", () => {
     // code that does something when the connection is first established
-    console.log("Betty is connected!");
+    console.log("Connected!");
   });
   conn.on('data', (data) => {
     console.log(data);
